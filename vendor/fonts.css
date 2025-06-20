@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Cofosans';
+    src: url(../vendor/fonts/cofosans-regular.woff2) format('woff2'),
+        url(../vendor/fonts/cofosans-regular.woff) format('woff'),
+        url(../vendor/fonts/cofosans-regular.ttf) format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mabrypro';
+    src: url(../vendor/fonts/mabrypro-medium.woff2) format('woff2'),
+        url(../vendor/fonts/mabrypro-medium.woff) format('woff'),
+        url(../vendor/fonts/mabrypro-medium.ttf) format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mabrypro';
+    src: url(../vendor/fonts/mabrypro-bold.woff2) format('woff2'),
+        url(../vendor/fonts/mabrypro-bold.woff) format('woff'),
+        url(../vendor/fonts/mabrypro-bold.ttf) format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}

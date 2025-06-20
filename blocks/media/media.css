@@ -1,0 +1,21 @@
+.media {
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .media {
+        padding: 0 0 120px 0;
+        display: block;
+        max-width: 1680px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .media {
+        padding: 0 0 120px 0;
+        display: flex;
+        width: 1920px;
+        justify-content: space-between;
+    }
+}

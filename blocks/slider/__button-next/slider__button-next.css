@@ -1,0 +1,32 @@
+.slider__button-next {
+    background-image: url(../../../images/next.svg);
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border-radius: 40px;
+}
+
+.swiper-button-next:after {
+    width: 0px;
+    height: 0px;
+    line-height: 0;
+}
+
+@media (min-width: 1200px) {
+    .slider__button-next {
+        width: 48.28px;
+        height: 48.28px;
+        right: -24.14px;
+        border-radius: 48.28px;
+    }
+
+    .slider__button-next:hover {
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0 5px 10px 0 rgba(79, 61, 161, 0.4);
+    }
+}

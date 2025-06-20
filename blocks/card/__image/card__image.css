@@ -1,0 +1,17 @@
+.card__image {
+    display: block;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 335px;
+    height: 281px;
+}
+
+@media (min-width: 1200px) {
+    .card__image {
+        width: 320px;
+        height: 275px;
+    }
+}

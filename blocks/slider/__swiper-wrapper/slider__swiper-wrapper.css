@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+    .slider__swiper-wrapper  {
+        height: 450px;
+    }
+}

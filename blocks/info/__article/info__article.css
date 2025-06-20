@@ -1,0 +1,21 @@
+.info__article {
+    margin: 20px 20px 0 20px;
+    padding: 0;
+    max-width: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+@media (min-width: 768px) {
+    .info__article {
+        margin: 20px 40px 0 40px;
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .info__article {
+        margin: 35px 0 0 0;
+    }
+}

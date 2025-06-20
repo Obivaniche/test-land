@@ -1,0 +1,21 @@
+.card__tel {
+    margin: 8px 0 0 30px;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Mabrypro';
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #373042;
+}
+
+@media (min-width: 1200px) {
+    .card__tel {
+        margin: 5px 0 0 30px;
+        transition: all .2s ease-in-out;
+    }
+
+    .card__tel:hover {
+        color: #7557FF;
+    }
+}

@@ -1,0 +1,27 @@
+.hero__image {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 235px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .hero__image {
+        height: 470px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero__image {
+        margin: 0;
+        height: 722px;
+        min-width: 722px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hero__image {
+        margin: 0 0 0 92px;
+    }
+}

@@ -1,0 +1,24 @@
+.hero {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #373042;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 768px;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        max-width: 1680px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .hero {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}

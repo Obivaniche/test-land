@@ -1,0 +1,37 @@
+.hero__tel {
+    display: inline-block;
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Mabrypro';
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+
+@media (min-width: 768px) {
+    .hero__tel {
+        margin: 20px 0 0 0;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: -1.2px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero__tel {
+        margin: 24px 0 0 0;
+        transition: all .2s ease-in-out;
+    }
+
+    .hero__tel:hover {
+        color: #7557FF;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hero__tel {
+        margin: 24px 0 0 0;
+    }
+}

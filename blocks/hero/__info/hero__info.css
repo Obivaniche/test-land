@@ -1,0 +1,28 @@
+.hero__info {
+    margin: 0 0 0 20px;
+}
+
+@media (min-width: 768px) {
+    .hero__info {
+        margin: 0 0 0 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero__info {
+        margin: 0 auto;
+        width: 1199px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .hero__info {
+        margin: 0 0 0 80px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hero__info {
+        margin: 0 0 0 160px;
+    }
+}

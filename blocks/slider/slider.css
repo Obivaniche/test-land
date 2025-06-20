@@ -1,0 +1,23 @@
+.slider {
+    max-width: 768px;
+    margin: 60px auto 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .slider {
+        max-width: 1004px;
+        margin: 80px auto 0 auto;
+    }
+
+    .swiper {
+        overflow: visible;
+    }
+}
+
+@media (min-width: 1920px) {
+    .slider {
+        margin: 125px 160px 0 126px;
+    }
+
+
+}

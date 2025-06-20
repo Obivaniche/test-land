@@ -1,0 +1,17 @@
+.menu__buttons {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .menu__buttons {
+        margin: 0 0 0 40px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .menu__buttons {
+        margin: 0 0 0 80px;
+    }
+}

@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    height: 88px;
+    margin: 0 auto;
+    padding: 20px 15px 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 767px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .header {
+        height: 150px;
+        max-width: 1199px;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        max-width: 1920px;
+        padding: 40px 40px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .header {
+        max-width: 1920px;
+        padding: 40px 160px;
+    }
+}

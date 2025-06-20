@@ -1,0 +1,33 @@
+.hero__title {
+    margin: 25px 0 0 0;
+    max-width: 321px;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: -1.8px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+@media (min-width: 768px) {
+    .hero__title {
+        margin: 25px 0 0 0;
+        max-width: 640px;
+        font-size: 70px;
+        line-height: 59px;
+        letter-spacing: -2.8px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero__title {
+        margin: 27px 0 0 0;
+        width: 504px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hero__title {
+        margin: 27px 0 0 0;
+        width: 504px;
+    }
+}

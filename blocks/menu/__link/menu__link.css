@@ -1,0 +1,38 @@
+.menu__link {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Cofosans';
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    color: #373042;
+    transition: all .2s ease-in-out;
+}
+
+.menu__link:hover {
+    color: #7557FF;
+}
+
+.menu__link:hover:after {
+    animation-name: line;
+    animation-duration: 200ms;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -28px;
+    border: 2px solid #7557FF;
+}
+
+@keyframes line {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}

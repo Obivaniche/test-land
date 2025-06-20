@@ -1,0 +1,13 @@
+.header__link {
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: 53px;
+}
+
+@media (min-width: 1200px) {
+    .header__link {
+        width: 203px;
+        height: 60px;
+    }
+}

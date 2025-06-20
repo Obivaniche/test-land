@@ -1,0 +1,23 @@
+.info__title {
+    margin: 50px 0 0 20px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -1.6px;
+    color: #373042;
+}
+
+@media (min-width: 768px) {
+    .info__title {
+        margin: 50px 0 0 40px;
+        font-size: 55px;
+        line-height: 55px;
+        letter-spacing: -2.2px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .info__title {
+        margin: 0;
+    }
+}

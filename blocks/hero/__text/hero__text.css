@@ -1,0 +1,30 @@
+.hero__text {
+    margin: 15px 0 0 0;
+    padding: 0;
+    font-family: 'Cofosans';
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.72px;
+}
+
+@media (min-width: 768px) {
+    .hero__text {
+        margin: 15px 0 0 0;
+        font-size: 20px;
+        letter-spacing: -0.8px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero__text {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hero__text {
+        margin: 20px 0 0 0;
+    }
+}
