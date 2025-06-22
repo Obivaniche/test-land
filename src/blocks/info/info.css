@@ -21,6 +21,6 @@
 
 @media (min-width: 1920px) {
     .info {
-        margin: 120px 0 0 160px;
+        margin: 120px 0 0 0;
     }
 }

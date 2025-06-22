@@ -19,7 +19,7 @@
 
 @media (min-width: 1200px) {
     .slider__pagination {
-        margin: 0;
+        margin: -10px 0 0 0;
     }
 
     .swiper-pagination-lock {
