@@ -1,3 +1,7 @@
+// Стили
+import './index.css';
+
+// Свайпер
 const swiper = new Swiper('.swiper', {
     loop: true,
     pagination: {
